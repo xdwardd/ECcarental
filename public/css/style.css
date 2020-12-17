@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header {
+    
+     padding: 60px;
+     text-align: center;
+   
+     color: rgb(22, 22, 22);
+  
+}
+ .info h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+p{
+    text-align: left;
+}
+
+
+.profile{
+    display: flex;
+}
+.objective{
+    padding: 60px;
+}
+.objective h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.education{
+    padding: 60px;
+}
+.education h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.experience{
+    padding: 60px;
+}
+.experience h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.skill{
+    padding: 60px;
+}
+.skill h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
