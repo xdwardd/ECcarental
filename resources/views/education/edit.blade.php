@@ -7,18 +7,23 @@
             @csrf
             @method('PUT')
             <div class="form-group">
+                <label for="">School Name</label>
                 <input type="text" name="school_name" value="{{$education->school_name}}" class="form-control" placeholder="School Name">
             </div>
             <div class="form-group">
+                <label for="">School Location</label>
                 <input type="text" name="school_location" value="{{$education->school_location}}" class="form-control" placeholder="School Address">
             </div>
             <div class="form-group">
+                <label for="">Degree</label>
                 <input type="text" name="degree" value="{{$education->degree}}" class="form-control" placeholder="Degree">
             </div>
             <div class="form-group">
+                <label for="">School Year Start</label>
                 <input type="date" name="sy_start" value="{{$education->sy_start}}" class="form-control">
             </div>
             <div class="form-group">
+                <label for="">School Year End</label>
                 <input type="date" name="sy_end" value="{{$education->sy_end}}" class="form-control">
             </div>
 

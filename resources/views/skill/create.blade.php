@@ -6,6 +6,7 @@
         <form action="/skill" method="POST">
          @csrf
          <div class="form-group">
+             <label for="">Skill Name</label>
              <input type="text"
               name="name" 
               class="form-control" 
@@ -14,6 +15,7 @@
               >
          </div>
          <div class="form-group">
+             Skill Rating
             <input type="text"
              name="rating" 
              class="form-control" 

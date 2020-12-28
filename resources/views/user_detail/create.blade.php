@@ -6,6 +6,7 @@
           @csrf
          
           <div class="form-group">
+            <label for="">Fullname</label>
               <input 
               type="text" name="fullname" 
               id="fullname" class="form-control" 
@@ -13,7 +14,8 @@
               value="{{ old('fullname') }}">
           </div>
 
-          <div class="form-group">                  
+          <div class="form-group"> 
+            <label for="">Email</label>                 
             <input type="email" name="email" 
             class="form-control" 
             id="email"
@@ -24,6 +26,7 @@
           </div>
 
           <div class="form-group">
+            <label for="">Phone No.</label>
             <input type="number" name="phone"
              class="form-control"
              id="phone"
@@ -34,6 +37,7 @@
           </div>
 
           <div class="form-group">
+            <label for="">Address</label>
             <input type="text"  name="address" 
             class="form-control"
             id="address"
@@ -44,6 +48,7 @@
           </div>
 
           <div class="form-group">
+            <label for="">Objective</label>
             <textarea name="objective"  cols="30" rows="4" 
             class="form-control"
             id="objective"
@@ -56,7 +61,7 @@
           </div>
 
           <div>
-            <button class="btn btn-primary">Save</button>    
+            <button class="btn btn-primary mb-2">Save</button>    
           </div>   
         </form> 
        

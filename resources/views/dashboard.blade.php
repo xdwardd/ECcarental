@@ -57,7 +57,7 @@
                             
                           @else
                               <P>No Info Found</P>
-                              <a href="user_detail/create" class="btn btn-sm btn-success">Create Resume</a>
+                              
                           @endif
                      </div>
                 </div>

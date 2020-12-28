@@ -7,6 +7,7 @@
         <form action="/experience" method="POST">
         @csrf
             <div class="form-group">
+                <label for="">Job Title</label>
                 <input type="text"
                 name="job_title" 
                 class="form-control" 
@@ -15,6 +16,7 @@
                 >
             </div>
             <div class="form-group">
+                <label for="">Employer</label>
                 <input type="text" 
                 name="employer" 
                 class="form-control" 
@@ -23,6 +25,7 @@
                 >
             </div>
             <div class="form-group">
+                <label for="">Address</label>
                 <input type="text"
                  name="address" 
                  class="form-control"
@@ -31,6 +34,7 @@
                  >
             </div>
             <div class="form-group">
+                <label for="">Date Started</label>
                 <input type="date" 
                  name="start_date" 
                  class="form-control"
@@ -38,6 +42,7 @@
                  >
             </div>
             <div class="form-group">
+                <label for="">Date End</label>
                 <input type="date"
                  name="end_date" 
                  class="form-control"
@@ -46,7 +51,7 @@
             </div>
 
             <div>
-                <button type="submit" class="btn btn-primary">Save Work</button>
+                <button type="submit" class="btn btn-primary mb-2">Save Work</button>
             </div>
         </form>
     </div>    
